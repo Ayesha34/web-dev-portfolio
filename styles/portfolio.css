@@ -5,7 +5,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* shared styles */
+/* herer is shared styles */
 .text-primary{
     color:#FD6E0A ;
 }
@@ -24,12 +24,13 @@
     border: none;
 }
 
-/* header */
+/* here is header */
 
 .hero{
    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right; 
+    
     
 }
 
@@ -40,7 +41,7 @@
 }
 
 
-/* nav styles */
+/* here is nav styles */
 
 nav{
     display: flex;
@@ -70,7 +71,7 @@ nav li a{
     font-size: 20px;
 }
 
-/* banner styles */
+/* here is banner styles */
 
 .banner{
     display: flex;
@@ -93,6 +94,7 @@ nav li a{
 .banner-title{
     font-size: 85px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .banner-discription{
