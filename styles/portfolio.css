@@ -29,6 +29,17 @@
     border-radius: 5px;
     border: none;
 }
+.contact{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    color:  #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: 15px;
+
+}
 
 .section-title{
     color: #181818;
@@ -151,7 +162,8 @@ main section{
 }
 
 .item-discription{
-    font-weight: 600;
+    font-weight: 700;
+    color: #757575;
 }
 
 /* skills section styles */
@@ -234,3 +246,16 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
 }
 
+
+
+/* responsive midea query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    
+}
